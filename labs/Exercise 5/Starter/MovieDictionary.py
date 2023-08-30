@@ -4,5 +4,13 @@ movies = [{"title": "Jaws", "director": "Steven Spielberg", "year": "1975"},
           {"title": "The Mission", "director": "Rolan Joffe", "year": "1986"},
           {"title": "Bridget Jones Diary", "director": "Sharron McGuire", "year": "2001"}]
 
-# Iterate through each movie and print out title
+# Part 3
+movie = {"title": "Jaws", "director": "Stephen Spielberg", "year": "2000"}
+print("Movie:" + movie["title"])
+print("Director:" + movie["director"])
+print("Year:" + movie["year"])
 
+# Part 5
+# Iterate through each movie and print out title
+for item in movies:
+    print(item["title"], item["director"])

@@ -4,7 +4,10 @@ movies = [{"title": "Jaws", "director": "Steven Spielberg", "year": "1975"},
           {"title": "The Mission", "director": "Rolan Joffe", "year": "1986"},
           {"title": "Bridget Jones Diary", "director": "Sharron McGuire", "year": "2001"}]
 
-# Iterate through each movie and print out
+# Part 6
+user = input("Enter title of movie:")
+
 for movie in movies:
-    print(movie["title"])
+    if user == movie["title"]:
+        print(movie)
 
